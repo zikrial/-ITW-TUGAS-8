@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		alert('Menu Makanan' + '\n 1. Nasi Goreng Rp.10000' + '\n 2. Mie Ayam Rp.8000' + '\n 3. Bubur Ayam Rp.10000' );
+
+		var menu = prompt('Masukan nama makanan : ')
+		var jumlah = prompt('Jumlah pesanan : ')
+
+		if (menu == "Nasi Goreng") {
+			var harga = 10000;
+			var hasil = harga * jumlah;
+			alert('Pesanan anda adalah : ' + menu + '\n Jumlah pesanan : ' + jumlah + '\n Total harga : ' + hasil );
+		}
+		else if (menu == "Mie Ayam") {
+			var harga = 8000;
+			var hasil = harga * jumlah;
+			alert('Pesanan anda adalah : ' + menu + '\n Jumlah pesanan : ' + jumlah + '\n Total harga : ' + hasil );
+		}
+		else if (menu == "Bubur Ayam") {
+			var harga = 10000;
+			var hasil = harga * jumlah;
+			alert('Pesanan anda adalah : ' + menu + '\n Jumlah pesanan : ' + jumlah + '\n Total harga : ' + hasil );
+		}
+		else {
+			alert('Error');
+		}
+		confirm('Terima kasih');
+	</script>
+
+</body>
+</html>
